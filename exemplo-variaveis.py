@@ -1,0 +1,16 @@
+#atribuição multipla de variaveis
+a, b = 1, 2
+print('Antes da troca')
+print(f'O valor das variaveis: a= {a}, b= {b}')
+
+# primeira troca de variaveis
+temp = a
+a = b
+b = temp
+print('Primeira troca')
+print(f'O valor das variaveis: a= {a}, b= {b}')
+
+# Segunda troca de variaveis
+a, b = b, a
+print('Segunda troca')
+print(f'O valor das variaveis: a= {a}, b= {b}')
